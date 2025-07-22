@@ -823,124 +823,69 @@ Hey, I'm Shasbin AS passionate MERN Full Stack Developer and a YouTuber who runs
       <!-- /Services Section -->
 
       <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>
-           I'm available if you need any help or have any questions
-          </p>
-        </div>
-        <!-- End Section Title -->
+  
+<section id="contact" class="contact section py-5">
+  <div class="container section-title text-center mb-5" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>I'm available if you need any help or have any questions</p>
+  </div>
 
-        <div class="container" data-aos="fade" data-aos-delay="100">
-          <div class="row gy-4">
-            <div class="col-lg-4">
-              <div
-                class="info-item d-flex"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>Thrissur,kerala</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
 
-              <div
-                class="info-item d-flex"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+919746998909</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
-
-              <div
-                class="info-item d-flex"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>shasbinas1@gamil.com</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
-            </div>
-
-            <div class="col-lg-8">
-              <form
-                action="forms/contact.php"
-                method="post"
-                class="php-email-form"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      placeholder="Your Name"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-6">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      placeholder="Your Email"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      placeholder="Subject"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      rows="6"
-                      placeholder="Message"
-                      required=""
-                    ></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
-                    <button type="submit">Send Message</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <!-- End Contact Form -->
+      <!-- Address -->
+      <div class="col" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card custom-card text-white bg-gradient-blue">
+          <div class="card-body text-center">
+            <i class="bi bi-geo-alt-fill fs-1 mb-3"></i>
+            <h5 class="card-title">Address</h5>
+            <p class="card-text">Thrissur, Kerala</p>
           </div>
         </div>
-      </section>
+      </div>
+
+      <!-- Call -->
+      <div class="col" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card custom-card text-white bg-gradient-green">
+          <div class="card-body text-center">
+            <i class="bi bi-telephone-fill fs-1 mb-3"></i>
+            <h5 class="card-title">Call Us</h5>
+            <p class="card-text">+91 9746998909</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="col" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card custom-card text-white bg-gradient-red">
+          <div class="card-body text-center">
+            <i class="bi bi-envelope-fill fs-1 mb-3"></i>
+            <h5 class="card-title">Email Us</h5>
+            <p class="card-text">shasbinas1@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- WhatsApp -->
+      <div class="col" data-aos="zoom-in" data-aos-delay="400">
+        <div class="card custom-card text-white bg-gradient-darkgreen">
+          <div class="card-body text-center">
+            <i class="bi bi-whatsapp fs-1 mb-3"></i>
+            <h5 class="card-title">WhatsApp</h5>
+            <p class="card-text">
+              <a href="https://wa.me/919746998909" target="_blank" class="text-white text-decoration-underline">
+                Chat on WhatsApp
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
       <!-- /Contact Section -->
     </main>
 
@@ -967,15 +912,6 @@ Hey, I'm Shasbin AS passionate MERN Full Stack Developer and a YouTuber who runs
             <span>Copyright</span>
             <strong class="px-1 sitename">Shasbin AS</strong>
             <span>All Rights Reserved</span>
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by
-            <a href="https://bootstrapmade.com/">BootstrapMade</a> Distribuited
-            by <a href="https://themewagon.com">ThemeWagon</a>
           </div>
         </div>
       </div>
@@ -1006,6 +942,39 @@ Hey, I'm Shasbin AS passionate MERN Full Stack Developer and a YouTuber who runs
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+   <style>
+  .custom-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .custom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  }
+
+  .bg-gradient-blue {
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+  }
+
+  .bg-gradient-green {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+  }
+
+  .bg-gradient-red {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  }
+
+  .bg-gradient-darkgreen {
+    background: linear-gradient(135deg, #075e54, #128c7e);
+  }
+
+  a.text-white:hover {
+    color: #ddd !important;
+  }
+</style>
   </body>
 </html>
  AS
